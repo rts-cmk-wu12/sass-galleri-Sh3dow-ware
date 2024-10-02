@@ -1,0 +1,40 @@
+@use 'reset';
+@use 'components';
+@use 'variables' as *;
+@use 'layout';
+
+
+body, html {
+    width: $viewportwidth;
+    min-height: $viewportheight;
+    display: grid;
+}
+
+
+body * {
+    font-family: $font-arial;
+}
+
+
+.wrapper  {
+   padding: $unit-rem-1_25;
+   overflow-x: hidden;
+}
+
+
+.form__search {
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: $unit-rem-1_25;
+    padding: 0.625rem;
+    font-weight: bold;
+    color: gray;
+}
+
+
+
+
+.dropdown__link {
+    display: flex;
+}
