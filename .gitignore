@@ -1,2 +1,5 @@
-source
+source/node_modules
+source/package.json
+source/package-lock.json
+
 css/index.css.map
